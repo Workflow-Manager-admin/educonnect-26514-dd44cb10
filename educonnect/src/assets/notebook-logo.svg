@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Modern notebook SVG icon for educational application navbar -->
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Notebook logo">
+  <rect x="5" y="8" width="38" height="32" rx="6" fill="#fff" stroke="#addce6" stroke-width="2.6"/>
+  <rect x="10" y="13" width="28" height="22" rx="3" fill="#e5f5fa" stroke="#7dc1d1" stroke-width="1.6"/>
+  <rect x="10" y="13" width="4" height="22" rx="2" fill="#addce6"/>
+  <line x1="18" y1="19" x2="34" y2="19" stroke="#7dc1d1" stroke-width="1.3" stroke-linecap="round"/>
+  <line x1="18" y1="24" x2="34" y2="24" stroke="#7dc1d1" stroke-width="1.3" stroke-linecap="round"/>
+  <line x1="18" y1="29" x2="30" y2="29" stroke="#7dc1d1" stroke-width="1.3" stroke-linecap="round"/>
+  <circle cx="12" cy="16" r="0.75" fill="#FFD166"/>
+  <circle cx="12" cy="20" r="0.75" fill="#FFD166"/>
+  <circle cx="12" cy="24" r="0.75" fill="#FFD166"/>
+  <circle cx="12" cy="28" r="0.75" fill="#FFD166"/>
+</svg>
