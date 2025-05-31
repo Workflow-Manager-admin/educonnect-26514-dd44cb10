@@ -4,6 +4,14 @@
   --text-color: #ffffff;
   --text-secondary: rgba(255, 255, 255, 0.7);
   --border-color: rgba(255, 255, 255, 0.1);
+
+  /* EduConnect color scheme */
+  --educonnect-primary: #addce6;
+  --educonnect-secondary: #b4fdd0;
+  --educonnect-accent: #FFD166;
+  --educonnect-dark-bg: #181C20; /* Slightly lighter than black for dark theme */
+  --educonnect-navbar-bg: #20242a;
+  --educonnect-btn-shadow: 0 2px 12px 0 rgba(173, 220, 230, 0.07);
 }
 
 body {
