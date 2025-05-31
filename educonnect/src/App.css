@@ -157,13 +157,18 @@ body {
 }
 
 .dashboard-info {
-  margin-top: 16px;
-  margin-bottom: 4px;
+  margin-top: 12px;
+  margin-bottom: 0;
   color: var(--text-secondary);
+  background: rgba(226,248,255,0.30);
+  padding: 11px 13px 10px 13px;
+  border-radius: 9px;
   text-align: center;
-  font-size: 1.07rem;
-  max-width: 360px;
-  line-height: 1.5;
+  font-size: 1.08rem;
+  max-width: 330px;
+  line-height: 1.52;
+  letter-spacing: 0.01em;
+  box-shadow: none;
 }
 
 /* Responsive adjustments */
