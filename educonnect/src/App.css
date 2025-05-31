@@ -33,19 +33,23 @@ body {
 
 /* Navbar styles */
 .educonnect-navbar {
-  background-color: var(--educonnect-navbar-bg);
-  padding: 16px 0;
-  border-bottom: 1px solid var(--educonnect-primary);
+  background: var(--navbar-baby-blue);
+  box-shadow: 0 2px 18px 0 rgba(122, 193, 209, 0.08);
+  padding: 14px 0 14px 0;
+  border-bottom: 1.5px solid var(--border-color);
   position: fixed;
   width: 100%;
   top: 0;
   z-index: 100;
+  transition: box-shadow 0.15s;
 }
 
 .navbar-content {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .educonnect-logo {
