@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-
+import logo from './assets/logo.png';
 /**
  * PUBLIC_INTERFACE
  * Classroom Insider Dashboard - Modern UI with baby blue theme.
