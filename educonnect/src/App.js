@@ -34,10 +34,10 @@ function App() {
             <h2 className="dashboard-welcome">Welcome to Classroom Insider</h2>
             <div className="dashboard-actions">
               <button className="btn btn-classroom join-classroom-btn" type="button">
-                Join Classroom
+                Join
               </button>
               <button className="btn btn-classroom create-classroom-btn" type="button">
-                Create Classroom
+                Create
               </button>
             </div>
             <div className="dashboard-info">
