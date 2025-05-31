@@ -93,23 +93,26 @@ body {
 }
 
 .dashboard-hero {
-  background: rgba(24, 28, 32, 0.85);
-  border: 1px solid var(--educonnect-primary);
-  border-radius: 16px;
-  max-width: 480px;
-  padding: 48px 28px 36px 28px;
+  background: rgba(173, 220, 230, 0.18);
+  border: 1.5px solid var(--primary-baby-blue);
+  border-radius: 18px;
+  max-width: 430px;
+  padding: 44px 26px 36px 26px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  box-shadow: var(--educonnect-btn-shadow);
+  box-shadow: 0 12px 40px 0 rgba(173,220,230,0.24), 0 1.5px 5px 0 #e3f5fb inset;
+  transition: box-shadow 0.17s;
 }
 
 .dashboard-welcome {
-  font-size: 2.4rem;
-  font-weight: 600;
-  letter-spacing: 0.02em;
-  color: var(--educonnect-primary);
-  margin-bottom: 32px;
+  font-size: 2.05rem;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  color: var(--text-color);
+  margin-bottom: 28px;
+  text-align: center;
+  line-height: 1.15;
 }
 
 .dashboard-actions {
