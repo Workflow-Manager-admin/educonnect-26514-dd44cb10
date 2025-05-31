@@ -70,14 +70,10 @@ body {
 .navbar-logo-img {
   width: 42px;
   height: 42px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 2px solid var(--primary-baby-blue);
-  box-shadow: 0 2px 7px 0 rgba(173,220,230,0.17);
-  background: #fff;
   margin-right: 4px;
-  transition: box-shadow 0.14s, border-color 0.16s;
   vertical-align: middle;
+  object-fit: contain;
+  /* Removed border, border-radius, box-shadow, background */
 }
 
 /* Responsive: smaller screens */
