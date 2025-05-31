@@ -58,12 +58,40 @@ body {
   letter-spacing: 0.02em;
   display: flex;
   align-items: center;
-  gap: 0;
+  gap: 18px; /* space between logo image and app name */
   color: var(--text-color);
   text-shadow: 0 1px 0 var(--baby-blue-dark), 0 2px 7px #e0f5fb;
   margin-left: 18px;
   font-family: 'Poppins', 'Inter', 'Roboto', 'Arial', sans-serif;
   /* New: visually anchor app name on left */
+}
+
+/* Logo image styling */
+.navbar-logo-img {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--primary-baby-blue);
+  box-shadow: 0 2px 7px 0 rgba(173,220,230,0.17);
+  background: #fff;
+  margin-right: 4px;
+  transition: box-shadow 0.14s, border-color 0.16s;
+  vertical-align: middle;
+}
+
+/* Responsive: smaller screens */
+@media (max-width: 700px) {
+  .navbar-logo-img {
+    width: 28px;
+    height: 28px;
+    margin-right: 4px;
+  }
+  .educonnect-logo {
+    gap: 12px;
+    font-size: 1.3rem;
+    margin-left: 12px;
+  }
 }
 
 .educonnect-logo-symbol,
