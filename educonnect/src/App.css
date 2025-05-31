@@ -16,7 +16,8 @@
 body {
   margin: 0;
   font-family: 'Inter', 'Roboto', 'Helvetica', 'Arial', sans-serif;
-  background-color: var(--educonnect-dark-bg);
+  background: linear-gradient(120deg, var(--baby-blue-light) 0%, var(--primary-baby-blue) 100%);
+  min-height: 100vh;
   color: var(--text-color);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
