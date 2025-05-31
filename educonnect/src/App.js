@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
-import logo from './assets/logo.png';
+import notebookLogo from './assets/notebook-logo.svg';
+
 /**
  * PUBLIC_INTERFACE
  * Classroom Insider Dashboard - Modern UI with baby blue theme.
@@ -13,12 +14,12 @@ function App() {
         <div className="container navbar-content">
           <div className="educonnect-logo" style={{ display: 'flex', alignItems: 'center', gap: '16px' }}>
             <img
-              src={logo}
-              alt="Classroom Insider Logo"
+              src={notebookLogo}
+              alt="Notebook logo"
               className="navbar-logo-img"
               width={42}
               height={42}
-              aria-label="App Logo"
+              aria-label="Notebook logo"
               draggable={false}
             />
             <span>Classroom Insider</span>
