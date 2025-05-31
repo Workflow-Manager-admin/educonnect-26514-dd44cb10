@@ -22,10 +22,10 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-/* ========== EduConnect custom dark theme ========== */
+/* ========== Classroom Insider Baby Blue Theme ========== */
 .educonnect-dark {
   min-height: 100vh;
-  background: var(--educonnect-dark-bg);
+  background: transparent;
   color: var(--text-color);
   display: flex;
   flex-direction: column;
