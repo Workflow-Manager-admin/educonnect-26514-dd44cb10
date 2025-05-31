@@ -11,8 +11,17 @@ function App() {
     <div className="app educonnect-dark">
       <nav className="navbar educonnect-navbar">
         <div className="container navbar-content">
-          <div className="educonnect-logo">
-            Classroom Insider
+          <div className="educonnect-logo" style={{ display: 'flex', alignItems: 'center', gap: '16px' }}>
+            <img
+              src={logo}
+              alt="Classroom Insider Logo"
+              className="navbar-logo-img"
+              width={42}
+              height={42}
+              aria-label="App Logo"
+              draggable={false}
+            />
+            <span>Classroom Insider</span>
           </div>
           {/* Navbar links can be added here in future */}
         </div>
